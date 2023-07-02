@@ -1,4 +1,4 @@
-menu "Example Configuration"
+menu "Network Control"
 
     config ESP_WIFI_SSID
         string "WiFi SSID"
@@ -43,5 +43,10 @@ menu "Example Configuration"
         config ESP_WIFI_AUTH_WAPI_PSK
             bool "WAPI PSK"
     endchoice
+
+    config ESP_SERVER_IP
+        string "ip address of networked server"
+        help
+            The IP address of the server device with which this one will communicate.
 
 endmenu
