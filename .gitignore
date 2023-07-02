@@ -1,0 +1,8 @@
+build/
+# local secret config
+sdkconfig
+.vscode/settings.json
+# project tasks -- I believe this is set up automatically by Espressif IDF extension
+.vscode/tasks.json
+# c/c++ setup for your local environment
+c_cpp_properties.json
