@@ -6,3 +6,5 @@ sdkconfig
 .vscode/tasks.json
 # c/c++ setup for your local environment
 c_cpp_properties.json
+# automatic backup
+sdkconfig.old
